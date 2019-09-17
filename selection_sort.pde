@@ -54,6 +54,8 @@ void draw()
   }
   fill(0, height, height);
   text("selection sort", width/2 - 15, 15);
+  
+  saveFrame("selectionFrames/selection_####.png"); //save each frame in folder
 
   }
   
